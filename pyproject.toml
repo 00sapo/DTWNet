@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "DTWNet"
+version = "0.1.0"
+description = "dtwnet reproduce"
+authors = ["Federico Simonetta <federico.simonetta@unimi.it>"]
+license = "MiT"
+
+[tool.poetry.dependencies]
+python = "^3.6.9"
+librosa = "^0.7.2"
+# python-dtw = "^1.0.5"
+cydtw = "^0.1.4"
+dtw-c = "^0.6.0"
+dtw = "^1.4.0"
+torch = "0.4.0"
+scipy = "^1.4.1"
+ipdb = "^0.12.3"
+
+[tool.poetry.dev-dependencies]
+ipython = "^7.12.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
